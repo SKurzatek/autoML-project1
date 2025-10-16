@@ -1,0 +1,24 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "catboost>=1.2.8",
+    "interpret>=0.7.3",
+    "ipykernel>=7.0.1",
+    "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.7",
+    "nbclient>=0.10.2",
+    "nbformat>=5.10.4",
+    "openml>=0.15.1",
+    "optuna>=4.5.0",
+    "pandas>=2.3.3",
+    "pyarrow>=21.0.0",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.7.2",
+    "ucimlrepo>=0.0.7",
+    "xgboost>=3.0.5",
+]

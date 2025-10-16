@@ -1,0 +1,7 @@
+,dtype,n_missing,missing_ratio,n_unique
+buying,object,0,0.0,4
+maint,object,0,0.0,4
+doors,object,0,0.0,4
+persons,object,0,0.0,3
+lug_boot,object,0,0.0,3
+safety,object,0,0.0,3
