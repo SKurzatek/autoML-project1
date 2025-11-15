@@ -1,0 +1,144 @@
+{
+    "saves": [
+        {
+            "timestamp": "2025-10-25 18:29:08",
+            "dataset": "car",
+            "model": "mlp",
+            "search": "random",
+            "best_params": {
+                "model__activation": "tanh",
+                "model__alpha": 4.973980116331519e-05,
+                "model__batch_size": 128,
+                "model__hidden_layer_sizes": [
+                    256
+                ],
+                "model__learning_rate_init": 0.04997943803580264,
+                "model__n_iter_no_change": 20,
+                "model__solver": "adam",
+                "model__tol": 0.003
+            },
+            "best_score": 0.9913148194688783
+        },
+        {
+            "timestamp": "2025-10-25 18:42:09",
+            "dataset": "aps",
+            "model": "mlp",
+            "search": "random",
+            "best_params": {
+                "model__activation": "tanh",
+                "model__alpha": 0.021014475048247223,
+                "model__batch_size": 128,
+                "model__hidden_layer_sizes": [
+                    128
+                ],
+                "model__learning_rate_init": 0.0002047534398773686,
+                "model__n_iter_no_change": 20,
+                "model__solver": "adam",
+                "model__tol": 0.003
+            },
+            "best_score": 0.992516447368421
+        },
+        {
+            "timestamp": "2025-10-25 20:18:07",
+            "dataset": "covertype",
+            "model": "mlp",
+            "search": "random",
+            "best_params": {
+                "model__activation": "tanh",
+                "model__alpha": 2.9103006766169227e-06,
+                "model__batch_size": 256,
+                "model__hidden_layer_sizes": [
+                    256
+                ],
+                "model__learning_rate_init": 0.006316036391470123,
+                "model__n_iter_no_change": 20,
+                "model__solver": "adam",
+                "model__tol": 0.01
+            },
+            "best_score": 0.8903592690782192
+        },
+        {
+            "timestamp": "2025-10-26 11:22:24",
+            "dataset": "car",
+            "model": "mlp",
+            "search": "bayes",
+            "best_params": {
+                "__activation": "relu",
+                "__alpha": 1e-07,
+                "__batch_size": 128,
+                "__hidden_layer_sizes": 128,
+                "__learning_rate_init": 0.012753998344027432,
+                "__n_iter_no_change": 20,
+                "__tol": 0.003
+            },
+            "best_score": 0.9905964647733937
+        },
+        {
+            "timestamp": "2025-10-26 12:01:26",
+            "dataset": "aps",
+            "model": "mlp",
+            "search": "bayes",
+            "best_params": {
+                "__activation": "relu",
+                "__alpha": 0.0107782812926354,
+                "__batch_size": 512,
+                "__hidden_layer_sizes": 256,
+                "__learning_rate_init": 0.00319262896119161,
+                "__n_iter_no_change": 20,
+                "__tol": 0.001
+            },
+            "best_score": 0.9923026315789474
+        },
+        {
+            "timestamp": "2025-10-26 21:10:11",
+            "dataset": "covertype",
+            "model": "mlp",
+            "search": "bayes",
+            "best_params": {
+                "__activation": "tanh",
+                "__alpha": 1e-07,
+                "__batch_size": 512,
+                "__hidden_layer_sizes": 256,
+                "__learning_rate_init": 0.002419116019076777,
+                "__n_iter_no_change": 20,
+                "__tol": 0.001
+            },
+            "best_score": 0.9181814430260392
+        },
+        {
+            "timestamp": "2025-10-28 11:58:10",
+            "dataset": "jannis",
+            "model": "mlp",
+            "search": "bayes",
+            "best_params": {
+                "__activation": "relu",
+                "__alpha": 0.008437635494811448,
+                "__batch_size": 128,
+                "__hidden_layer_sizes": 32,
+                "__learning_rate_init": 0.005698693342151397,
+                "__n_iter_no_change": 20,
+                "__tol": 0.001
+            },
+            "best_score": 0.703132024209416
+        },
+        {
+            "timestamp": "2025-10-29 17:18:30",
+            "dataset": "jannis",
+            "model": "mlp",
+            "search": "random",
+            "best_params": {
+                "model__activation": "relu",
+                "model__alpha": 0.027603912956530037,
+                "model__batch_size": 128,
+                "model__hidden_layer_sizes": [
+                    64
+                ],
+                "model__learning_rate_init": 0.003800658937460427,
+                "model__n_iter_no_change": 20,
+                "model__solver": "adam",
+                "model__tol": 0.001
+            },
+            "best_score": 0.6978921023811057
+        }
+    ]
+}

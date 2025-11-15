@@ -2,3 +2,4 @@ data/raw
 data/splits
 data/raw_data_autoML.zip
 plots/
+__pycache__/
